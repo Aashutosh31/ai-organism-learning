@@ -14,11 +14,14 @@ while alive:
   elif 30 < age <=60:
     age += 1
     energy -= 2
+    if energy <= 0:
+      break;
   elif 60 < age <=100:
     age += 1
     energy -= 5
-  if energy < 0:
-    energy = 0
+    if energy <= 0:
+      break;
+  if energy == 0:
     alive = False
   
   print("Age: ",age)
