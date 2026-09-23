@@ -19,7 +19,7 @@ while alive:
   elif 60 < age <=100:
     age += 1
     energy -= 5
-    if energy <= 0:
+    if energy <= 0:#breaks the  loop/prevents printing the loop  when organism energy reaches less than or equal to 0 internal before printing it.
       break;
   if energy == 0:
     alive = False
