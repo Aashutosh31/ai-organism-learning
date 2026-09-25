@@ -1,6 +1,8 @@
-number = int(input('Enter a Number: '))
+number = number = int(input('Enter a Number: '))
 
 while number != 0:
-  number = int(input('Enter a Number: '))
-
-print(number)
+  if number > 0:
+    print("positive")
+  else:
+    print('negative')
+  number = number = int(input('Enter a Number: '))

@@ -1,5 +1,4 @@
 energy = int(input("Enter Starting Energy: "))
-age = 0
 alive = True
 
 while alive:
